@@ -1,0 +1,64 @@
+:root {
+  --bg: #f7f7f7;
+  --headers: #474747;
+  --subHeaders: #666666;
+  --text: #888888;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container_main {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  min-height: 100vh;
+  background-color: var(--bg);
+}
+
+.nav_bar {
+  width: 20%;
+  border-right: 1px solid red;
+}
+
+.menus {
+  padding-top: 8rem;
+  padding-left: 4rem;
+}
+
+.menus p {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* .container_main{
+        align-items: center;
+        flex-direction: column;
+    } */
+}
