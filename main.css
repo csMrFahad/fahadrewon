@@ -87,10 +87,12 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   color: var(--text);
+  margin-bottom: 4rem;
 }
 
 .skills-icons {
   width: 6rem;
+  max-height: 6rem;
   border-radius: 5px 5px 0 0;
 }
 
