@@ -1,8 +1,8 @@
 :root {
   --bg: #f7f7f7;
-  --headers: #474747;
-  --subHeaders: #666666;
-  --text: #888888;
+  --headers: #373737;
+  --subHeaders: #414141;
+  --text: #555555;
 }
 
 * {
@@ -22,9 +22,10 @@ body {
   justify-content: flex-start;
   min-height: 100vh;
   background-color: var(--bg);
+  font-size: 1.2rem;
 }
 
-.nav_bar {
+.nav-bar {
   width: 20%;
   border-right: 1px solid red;
 }
@@ -32,13 +33,86 @@ body {
 .menus {
   padding-top: 8rem;
   padding-left: 4rem;
+  color: var(--subHeaders);
 }
 
 .menus p {
   padding: 1rem;
-  font-size: 1.2rem;
   font-weight: bold;
 }
+
+.content {
+  width: 80%;
+  padding: 0 5rem;
+}
+
+#user-name {
+  margin-top: 8rem;
+  font-size: 4rem;
+  color: var(--headers);
+}
+
+#user-position {
+  font-size: 2rem;
+  color: var(--subHeaders);
+}
+
+#user-intro {
+  margin-top: 4rem;
+
+  color: var(--text);
+  line-height: 3rem;
+}
+
+#download-cv {
+  color: var(--text);
+  font-weight: bold;
+}
+
+.Skills {
+  margin-top: 6rem;
+}
+
+#skills-header {
+  color: var(--headers);
+  font-size: 2rem;
+}
+
+.skills-subheader {
+  color: var(--subHeaders);
+}
+
+.skills-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: var(--text);
+}
+
+.skills-icons {
+  width: 6rem;
+  border-radius: 5px 5px 0 0;
+}
+
+.skills-text {
+}
+
+.skills-card {
+  padding: 2rem;
+  margin: 0.5rem 2rem 0.5rem 0;
+  max-width: 10rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }
